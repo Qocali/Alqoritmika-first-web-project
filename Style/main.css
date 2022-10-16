@@ -1,0 +1,242 @@
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+box-sizing: border-box;
+}
+.head{
+    width:400px;
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+    margin-top:97px;
+    margin-left:121px;
+}
+
+.head div p{
+   
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+/* or 23px */
+display: inline-block;
+color: #000000;
+}
+.Main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left:8vw;
+}
+.box1 h1{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 5em;
+line-height: 101.38%;
+/* or 81px */
+
+
+color: #000000;
+}
+.box1 p{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px; 
+line-height: 150%;
+/* or 30px */
+
+
+color: #000000;
+}
+.small-blog{
+    margin:0 auto;
+width: 483.63px;
+height: 200px;
+background: #1E4681;
+border-radius: 5px;
+}
+.small-blog p{
+    font-family: Roboto Slab;
+font-size: 25px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.small-blog .name{
+width: 280.5px;
+height: 45.64px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+text-align: right;
+}
+#grid1{
+    margin-top:50px;
+}
+#grid1 p{
+    font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#grid2 p{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+}
+.info-list h1{
+    font-family: Roboto Slab;
+font-size: 55px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.info-list p{
+ 
+    font-family: Roboto;
+font-size:24px;
+font-weight: 400;
+line-height: 2rem;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.format h1{
+    font-family: Roboto Slab;
+font-size: 55px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.format p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.format{
+    padding-left:120px;
+}
+.card-head h1{
+    font-family: Roboto Slab;
+font-size: 55px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.format-info{
+    display:flex;
+    padding:30px;
+}
+.format-info p{
+    display:flex;
+    padding:30px;
+    width:160px;
+    margin-right:50px;
+}
+#card{
+    width:90%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   padding:20px;
+}
+.blog2{
+    background: #EFEFEF;
+padding-left: 126px;
+}
+.blog2-info p:first-child{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.blog2 h2{
+    font-family: Roboto Slab;
+font-size: 55px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.blog2-info p:nth-child(2){
+    font-family: Roboto Slab;
+font-size: 30px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+background: #000000;
+
+
+}
+@media (max-width:880px) {
+    .info-list h1{
+font-size: 35px;
+    }
+    .info-list p {
+font-size: 16px;
+    }
+    .small-blog{
+        width:200px;
+        margin-top:30px;
+    }
+    .small-blog p{
+        font-family: Roboto Slab;
+    font-size: 16px;
+    }
+    .head{
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+    .head div p{
+   
+        font-size: 10px;
+        }
+        .small-blog .name{
+            width: 180.5px;
+            
+            font-size: 14px;
+            line-height: 130%;
+            text-align: center;
+            }
+            .format h1{
+                
+            font-size: 35px;
+           
+            
+            }
+            .box1 h1{
+            font-size: 36px;
+           
+            }
+}
