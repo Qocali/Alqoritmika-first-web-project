@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.fcontainer {
+    width: 100%;
+    height:760px;
+    background-color: #9DC9C8;
+    margin: 0;
+    padding: 0;
+}
+.felements {
+    width:100%;
+    padding-left:110px;
+    padding-top:160px
+}
+.felements {
+display:flex;
+flex-direction:column;
+}
+.ftextarea {
+display:flex;
+
+}
+
+.farea1 {
+margin-right:75px;
+}
+.fmoney {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    color: #000000;
+    margin-bottom:54px;
+}
+.felement1 h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 42px;
+    font-size: 3.5em;
+}
+.felements2 {
+    display:flex;
+    flex-direction:column;
+}
+.felem2intro {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+}
+.felem3header {
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.felem3text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+/*------------------Format---------------------*/
+
+.foocontainer{
+    width:100%;
+    height:600px;
+}
+.formatelements {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:600px;
+    padding-left: 110px;
+    padding-top: 160px
+}
+.formattextarea {
+    display:flex;
+
+}
+.format1 h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 110px;
+    font-size: 3.5em;
+}
+.formatareaheader {
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #1E4681;
+    font-family: Calibri;
+}
+
+.formatareatext {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    font-family:Calibri;
+}
+.formatmargin {
+margin-right:85px;
+}
+/*-----------------------------------List Info InfoSec-----------------------------*/
+
+infoseccontainer {
+    width: 100%;
+    height: 600px;
+}
+.infosecelements {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    padding-left: 110px;
+    padding-top: 30px
+}
+.infosecelem1 h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 70px;
+    font-size: 3.5em;
+}
+.infosecelem2 ul li {
+    font-family: Calibri;
+    line-height:115%;
+    font-size:1.5em;
+}
